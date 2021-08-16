@@ -1,0 +1,76 @@
+.colmunDiff {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.margin {
+  margin: 10px;
+}
+
+.titelsDiff {
+  color: #d9f3ff;
+  float: right;
+  margin-left: 20px;
+  font-size:3vh;
+}
+
+#divStyle {
+  margin-top: 65px;
+  font-size: 17px;
+}
+
+.continerS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#addSell {
+  width: 100%;
+  height: 55px;
+  color: #f5f56e;
+  cursor: pointer;
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d9f3ff;
+  background: linear-gradient(145deg, #e64896, #ff56b3);
+  box-shadow: 6px 6px 16px #fc4fa5, -6px -6px 16px #ff51a9;
+}
+#addSell:hover {
+  background: linear-gradient(145deg, #e66596, #ff78b3);
+  box-shadow: 6px 6px 23px #fa6ea4, -6px -6px 23px #ff72aa;
+}
+#decoration {
+  text-decoration: none;
+}
+
+div.continerFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.rowSS { 
+  display: flex; 
+  flex-wrap:wrap; 
+  flex-direction: row-reverse;
+  justify-content: center !important; 
+}
+span.borderC {
+  color:#ff50a7;
+  font-size:3vh;
+}
+
+#style-pester{
+  color:   #f5f56e;
+ 
+}

@@ -1,0 +1,69 @@
+.sliderStyle{
+    background-color:  #d9f3ff;  
+  margin-top: 3px;
+  font-size: 17px;
+  border: none;
+  text-align: center;
+  height:55px ;
+  width:270px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+} 
+input[type="checkbox" i] {
+  cursor: pointer;
+}
+.checkbox  .checkboxElement  {
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 2px !important;
+} 
+  
+.checkbox .checkboxWarp{
+  display: inline-block;
+  position: relative;
+  line-height: 1;
+  vertical-align: middle;
+}
+.checkbox input[type="checkbox"] {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
+.checkbox .checkboxElement  {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease 0s;
+  text-align: left;
+  box-shadow: none;
+}   
+
+.checkboxLabel{
+  font-size: 14px;
+  vertical-align: middle;
+  margin: 0 0 0 8px;
+  line-height: 1;
+} 
+
+ul#continerS{  
+  display: flex;
+  flex-direction: row-reverse;
+  height: 1px;
+  width: 560px;
+  float: right;
+  margin: 5px 1% 3em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 25px; 
+}
+div.PurchaseRequestStyle h2 {
+    font-size:5vh  ;
+}

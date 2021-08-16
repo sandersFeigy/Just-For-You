@@ -1,0 +1,15 @@
+.sell{ 
+    color: black;
+     min-height:40vh;
+}
+
+select#categoryy{
+width: 100%;
+ background-color: #d9f3ff ;
+ color: black;
+}
+
+.laod{
+    height: 75vh ;
+    width: 100vw ; 
+}

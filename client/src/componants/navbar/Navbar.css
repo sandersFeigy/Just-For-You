@@ -1,0 +1,148 @@
+#nav {
+  float: right;
+  margin: 5px 1% 3em 0;
+  padding: 0;
+  list-style: none;
+  font-size: 25px;
+}
+
+a#home {
+  width: 140px;
+  background: #ff50a7;
+}
+
+#nav li {
+  float: right;
+}
+
+#nav li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: 55px;
+  border-left: 3px solid #ff50a7;
+  box-shadow: 0px 1.5px 3px #d9f3ff;
+  color: #000000;
+}
+
+#nav li a:hover {
+  color: #f5f56e;
+  background-color: #ea9999;
+}
+ 
+
+#continer {
+  display: block;
+  justify-content: space-around;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 62px;
+  background-color: #f5f56e;
+  z-index: 10;
+}
+#logo {
+  float: right;
+ 
+  color: rgb(11, 114, 109); 
+}
+
+@media screen and (max-width: 900px) {
+  div#continer {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  div#continer li a,
+  div#continer span#logo {
+    float: left;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div#continer li a,
+  div#continer span#logo {
+    text-align: center;
+    float: none;
+  }
+}
+
+.homeList {
+  position: relative;
+  display: inline-block;
+}
+
+.homeList-content {
+  display: none;
+  position: absolute;
+  background-color: #f7f79e;
+  min-width: 133px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.homeList-content li a  {
+  color: #565b5f;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.homeList-content .listStyle{
+    color: #565b5f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.homeList:hover .homeList-content,.homeList:hover .list {
+  display: block;
+}
+
+div#continer div#marginTop {
+  margin-top: 14px;
+  margin-left: 20%;
+  background: none;
+  outline: none; 
+  border: none;
+  height: 40px;
+  width:40px ;
+  text-align: center;
+  cursor: pointer;
+}
+div#continer i#user{ 
+  font-size: 35px; 
+  margin-left: 9px;
+}
+ 
+
+div#continer div#float{
+  float: left; 
+}
+.list .listStyle {
+
+  color: #000000; 
+  text-decoration: none;
+  font-size: 18px;
+}
+.list {
+  display: none;
+  position: absolute;
+  border :1px solid  #f5f56e;
+  padding: 3px 18px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; 
+  background: #ff50a7;
+  box-shadow:  5px 5px 15px #fc4fa5,
+               -5px -5px 15px #ff51a9;
+}
+ 
+ 
+
+#nav li a.active {
+  color: #f5f56e;
+  background-color: #ea9999;
+  border-left: 3px solid #ea9999; 
+  } 
+ 

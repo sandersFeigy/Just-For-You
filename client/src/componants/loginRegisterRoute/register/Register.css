@@ -1,0 +1,74 @@
+.loginText {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.successMessage {
+  color: green;
+  font-weight: bold;
+}
+
+input#submitButten {
+  background-color: #ff50a7;
+  color: #f5f56e;
+}
+
+.formStyle {
+  display: flex;
+  flex-direction: column;
+  color: #ff50a7;
+}
+.submit {
+  background-color: #ff50a7;
+  color: #f5f56e;
+  width: 450px;
+  cursor: pointer;
+ 
+}
+.submit:hover{
+  background-color: #ff1f8f;
+}
+
+.continer { 
+  display: flex;
+  flex-direction: column;  
+  color: #ff50a7;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+div.continer hr#hrS {
+  border-top: 1px solid #d9f3ff;
+  width: 450px;
+}
+
+.bigInputRL{
+    width: 450px;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .bigInputRL:focus{
+   outline : none;
+  }
+.formS{
+    display: flex; 
+    flex-direction: column; 
+    
+}
+.colorText{
+    color:hsl(199, 100%, 93%);
+}
+
+.continetRegister{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+

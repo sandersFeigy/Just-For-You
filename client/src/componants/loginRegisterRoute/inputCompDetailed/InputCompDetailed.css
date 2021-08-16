@@ -1,0 +1,14 @@
+#space {
+  margin: 5px; 
+    
+    display: flex;
+   justify-content:center;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+ div#error {
+  color: #ff2f2f  ;
+  margin-top: 8px;
+}

@@ -1,0 +1,64 @@
+ .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 80%;
+    font-size: 17px; 
+    font-weight: 550;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+} 
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+
+.inputfile  + label {
+    color: #888888;
+}
+
+.inputfile :focus + label,
+.inputfile .has-focus + label,
+.inputfile  + label:hover {
+    color: #722040;
+}
+
+
+ 
+.continerStyle{
+    display: flex;
+    flex-direction:column;
+}
+
+.box {
+	background-color:   #d9f3ff;
+   
+    height: 55px;
+	padding: 0.25rem  ;
+}
+
+ 
+ 

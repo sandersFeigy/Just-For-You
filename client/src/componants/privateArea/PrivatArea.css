@@ -1,0 +1,54 @@
+.resolts{ 
+  min-height:400px;
+}
+  .list_item {
+    text-decoration: none;
+    color: black;
+    margin: 8px !important;
+  }
+  
+ 
+  
+.block{
+  margin-top:40px ;
+  min-height: 200px;
+}
+
+.resolts h1{
+  color:  #ff50a7;
+}
+
+.resolts h4{
+  color: #d9f3ff;
+}
+
+.resolts a{
+  color: #d9f3ff;
+}
+
+ 
+
+div.resolts hr {
+  border-top: 1px solid #f5f56e;
+  width: 450px;
+  border-radius: 0px; 
+  box-shadow: inset 8px 8px 36px #bfd6e0,
+              inset -8px -8px 36px #f3ffff;
+}
+div.resolts .listtt {
+  display: flex;
+  flex-direction:column;
+}
+
+div.galleryyy-diff{
+  width: 100% !important;
+ display: flex  ;
+ flex-wrap: wrap  ;
+ justify-content:center;
+ align-items: center; 
+ float:left !important;
+} 
+
+.data{ 
+  color: #d9f3ff;
+}

@@ -1,0 +1,115 @@
+.optionStyle {
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #1e1719,
+    #35272a,
+    #4e383b,
+    #694a4c,
+    #694a4c,
+    #694a4c,
+    #694a4c,
+    #4e383b,
+    #35272a,
+    #1e1719,
+    #000000
+  );
+  opacity: 0.8;
+  border: 3px solid   #d9f3ff;
+  border-top: 3px solid #1e1719;
+  color: #d9f3ff  ;
+}
+.optionStyle:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #30171f,
+    #5b253a,
+    #893257,
+    #ba3f78,
+    #ba3f78,
+    #ba3f78,
+    #ba3f78,
+    #893257,
+    #5b253a,
+    #30171f,
+    #000000
+  );
+}
+
+.optionStyleDiff {
+  height: 600px;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #30171f,
+    #5b253a,
+    #893257,
+    #ba3f78,
+    #ba3f78,
+    #ba3f78,
+    #ba3f78,
+    #893257,
+    #5b253a,
+    #30171f,
+    #000000
+  );
+  opacity: 0.8;
+  border: 3px solid #d9f3ff;
+  border-top: 3px solid #30171f;
+  color: #d9f3ff  ;
+}
+.optionStyleDiff:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #1e1719,
+    #35272a,
+    #4e383b,
+    #694a4c,
+    #694a4c,
+    #694a4c,
+    #694a4c,
+    #4e383b,
+    #35272a,
+    #1e1719,
+    #000000
+  );
+}
+
+#linkStyle {
+  text-decoration: none;
+  color: ivory;
+  width: 100%;
+}
+#iconImg {
+  height: 230px;
+  width: 230px;
+}
+
+a#linkStyle div.continer {
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  flex-wrap: wrap;
+}
+a#linkStyle div.continer p {
+  width: 600px;
+  color: #d9f3ff ;
+  direction: rtl;
+}
+a#linkStyle  div.continer div {
+  color: #f5f56e ;
+  font-size: 5hv  ;
+  direction: rtl;
+}
+
+h1#padding {
+  margin-top: 7vh ;
+  margin-bottom: 7vh ;
+  color:  #ff50a7;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "api": "cd api && npm run dev",
+    "api1": "cd api && npm install",
+    "client1": "cd client && npm install",
+    "start": "concurrently -kill-others \"npm run api\" \"npm run client\"",
+    "install": "concurrently \"npm run api1\" \"npm run client1\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.0",
+    "react-confirm-alert": "^2.7.0",
+    "react-loading": "^2.0.3",
+    "react-st-modal": "^1.1.3"
+  }
+}

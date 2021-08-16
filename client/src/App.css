@@ -1,0 +1,28 @@
+body {
+  background-color: #3f4446; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; 
+}
+.center {
+  text-align: center;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.switch{
+  width: 100%;
+}
+::-moz-selection { 
+  color: #d9f3ff;
+  background:  #f5f56e;
+}
+
+::selection {
+  color: #3f4446; 
+  opacity: 0.33;
+  background:  #f5f56e;
+}

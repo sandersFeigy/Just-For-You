@@ -1,0 +1,84 @@
+.PurchaseRequestStyle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 70px;  
+}
+.continer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  direction: rtl;
+}
+
+select {
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center;
+}
+
+input.submitButten {
+  background-color: #ff50a7;
+  color: #f5f56e;
+  width: 560px;
+   font-weight: 550;
+   cursor: pointer;
+}
+
+input.submitButten:hover{
+  background-color: #ff1f8f;
+}
+
+.inRow {
+  width: 560px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.inColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  border: 1px solid #ccc;
+  vertical-align: top;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 55px;
+  width: 270px;
+  padding: 2px;
+}
+
+.bigInput {
+  width: 560px;
+  height: 110px;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.bigInputhalf {
+  width: 560px;
+  padding: 0 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+div.continer hr.hrS {
+  border-top: 1px solid #d9f3ff;
+  width: 300px;
+}
+div.continer div h2{
+  color:  #f5f56e;
+  font-size: 2.7vh;
+}
+ 

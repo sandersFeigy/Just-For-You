@@ -1,0 +1,12 @@
+  
+ div.Gallery{
+    width: 100% !important;
+   display: flex  ;
+   flex-wrap: wrap  ;
+   justify-content:center  ;
+   align-items: center ; 
+  } 
+
+#highet{
+   min-height:40vh;
+}
